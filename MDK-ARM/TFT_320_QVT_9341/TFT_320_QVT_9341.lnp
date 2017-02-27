@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"tft_320_qvt_9341\stm32f4xx_hal_msp.o"
+"tft_320_qvt_9341\main.o"
+"tft_320_qvt_9341\stm32f4xx_it.o"
+"tft_320_qvt_9341\tft9341.o"
+"tft_320_qvt_9341\startup_stm32f407xx.o"
+"tft_320_qvt_9341\system_stm32f4xx.o"
+"tft_320_qvt_9341\stm32f4xx_hal_tim.o"
+"tft_320_qvt_9341\stm32f4xx_hal_gpio.o"
+"tft_320_qvt_9341\stm32f4xx_hal.o"
+"tft_320_qvt_9341\stm32f4xx_hal_pwr_ex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_pwr.o"
+"tft_320_qvt_9341\stm32f4xx_hal_tim_ex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_flash_ramfunc.o"
+"tft_320_qvt_9341\stm32f4xx_hal_dma_ex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_dma.o"
+"tft_320_qvt_9341\stm32f4xx_hal_cortex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_rcc_ex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_rcc.o"
+"tft_320_qvt_9341\stm32f4xx_hal_flash_ex.o"
+"tft_320_qvt_9341\stm32f4xx_hal_flash.o"
+--library_type=microlib --strict --scatter "TFT_320_QVT_9341\TFT_320_QVT_9341.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TFT_320_QVT_9341.map" -o TFT_320_QVT_9341\TFT_320_QVT_9341.axf
